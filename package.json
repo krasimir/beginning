@@ -1,8 +1,11 @@
 {
   "name": "beginning",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
   "main": "./setup.js",
+  "bin": {
+    "beginning": "./setup.js"
+  },
   "devDependencies": {
     "@babel/core": "7.5.0",
     "@babel/plugin-transform-regenerator": "7.4.5",
