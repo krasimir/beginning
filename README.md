@@ -6,5 +6,6 @@ A small startup repo for your JavaScript project. It includes setup for:
 
 * Webpack
 * TypeScript
-* React
+* React (styled-components)
 * ESLint
+* Prettier
