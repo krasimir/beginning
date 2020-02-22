@@ -11,8 +11,8 @@ type ContainerProps = {
 };
 
 export const Container = styled.div<ContainerProps>`
-  padding: ${props => ('p' in props ? props.padding : '0')};
-  margin: ${props => ('m' in props ? props.padding : 0)};
+  padding: ${props => ('padding' in props ? props.padding : '0')};
+  margin: ${props => ('margin' in props ? props.margin : 0)};
 `;
 
 export default function App({ name }: AppProps) {
