@@ -1,11 +1,13 @@
 ![Hipster](assets/pexels-photo-2453823.jpeg)
 
-<h1 align="center">A new _Beginning_ in the world of JavaScript</h1>
+<h1 align="center">A new <u>Beginning</u> in the world of JavaScript</h1>
 
 <div align="center">
-  1. Create an empty folder and run `npx beginning@latest`
-  2. Install the dependencies with `npm install`
-  3. Run `npm run dev` and open http://localhost:9000
+  <ol>
+    <li>1. Create an empty folder and run `npx beginning@latest`</li>
+    <li>2. Install the dependencies with `npm install`</li>
+    <li>3. Run `npm run dev` and open http://localhost:9000</li>
+  </ol>
 </div>
 
 A small starter kit for your JavaScript/React projects. It includes:
