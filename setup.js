@@ -70,3 +70,10 @@ createFolder(`${projectRoot}/public`);
 ].forEach(f => {
   copy(`${setupRoot}/${f}`, `${projectRoot}/${f}`);
 });
+
+console.log(`
+  ᐅ Files copied successfully. Next steps:
+
+  1. Run "npm install" (or "yarn install")
+  2. Run "npm run dev" and open "http://localhost:9000"
+`);
