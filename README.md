@@ -1,6 +1,12 @@
 ![Hipster](assets/pexels-photo-2453823.jpeg)
 
-# A new _Beginning_ in the world of JavaScript
+<h1 align="center">A new _Beginning_ in the world of JavaScript</h1>
+
+<div align="center">
+  1. Create an empty folder and run `npx beginning@latest`
+  2. Install the dependencies with `npm install`
+  3. Run `npm run dev` and open http://localhost:9000
+</div>
 
 A small starter kit for your JavaScript/React projects. It includes:
 
@@ -8,12 +14,6 @@ A small starter kit for your JavaScript/React projects. It includes:
 * TypeScript
 * React + styled-components
 * ESLint/Prettier configured
-
-## How to use it
-
-1. Create an empty folder and run `npx beginning@latest`
-2. Install the dependencies with `npm install`
-3. Run `npm run dev` and open http://localhost:9000
 
 --- 
 
