@@ -1,14 +1,13 @@
 ![Hipster](assets/pexels-photo-2453823.jpeg)
 
-# JavaScript-2020-Hipster-Starter
+# A new _Beginning_ in the world of JavaScript
 
-A small startup repo for your JavaScript project. It includes setup for:
+A small starter kit repo for your JavaScript projects. It includes:
 
-* Webpack
+* Webpack + webpack-dev-server (live-reload and watcher)
 * TypeScript
-* React (styled-components)
-* ESLint
-* Prettier
+* React + styled-components
+* ESLint/Prettier configured
 
 ## How to use it
 

@@ -1,6 +1,6 @@
 {
-  "name": "javascript-2020-hipster-starter",
-  "version": "0.1.0",
+  "name": "beginning",
+  "version": "0.2.0",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
   "main": "./lib/index.js",
   "dependencies": {
