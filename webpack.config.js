@@ -38,5 +38,6 @@ module.exports = {
     liveReload: true,
     port: 9000,
     historyApiFallback: true,
+    writeToDisk: true,
   },
 };
