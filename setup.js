@@ -5,10 +5,6 @@
 const path = require('path');
 const fs = require('fs');
 
-function fail(message) {
-  console.error(`\nᐅ ${message}\n`);
-  process.exit(1);
-}
 function copy(from, to, overwrite = true) {
   if (!fs.existsSync(to) || overwrite) {
     fs.copyFileSync(from, to);
@@ -42,6 +38,10 @@ const projectPkg = require(`${projectRoot}/package.json`);
 projectPkg.devDependencies = {
   ...projectPkg.devDependencies,
   ...setupPkg.devDependencies,
+};
+projectPkg.dependencies = {
+  ...projectPkg.dependencies,
+  ...setupPkg.dependencies,
 };
 projectPkg.scripts = {
   ...projectPkg.scripts,

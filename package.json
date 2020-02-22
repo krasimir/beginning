@@ -1,10 +1,22 @@
 {
   "name": "beginning",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
   "main": "./setup.js",
   "bin": {
     "beginning": "./setup.js"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styled-components": "5.0.0",
+    "prop-types": "15.7.2",
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "@types/styled-components": "4.4.2",
+    "@types/webpack-env": "1.15.1",
+    "@typescript-eslint/eslint-plugin": "2.19.2",
+    "@typescript-eslint/parser": "2.19.2"
   },
   "devDependencies": {
     "@babel/core": "7.5.0",
@@ -13,12 +25,6 @@
     "@babel/preset-env": "7.5.0",
     "@babel/preset-react": "7.0.0",
     "@babel/runtime": "7.5.0",
-    "@types/react": "16.9.19",
-    "@types/react-dom": "16.9.5",
-    "@types/styled-components": "4.4.2",
-    "@types/webpack-env": "1.15.1",
-    "@typescript-eslint/eslint-plugin": "2.19.2",
-    "@typescript-eslint/parser": "2.19.2",
     "babel-eslint": "9.0.0",
     "babel-loader": "8.0.4",
     "eslint": "5.16.0",
@@ -32,11 +38,7 @@
     "eslint-plugin-react": "7.18.0",
     "eslint-plugin-react-hooks": "1.7.0",
     "prettier": "1.19.1",
-    "prop-types": "15.7.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
     "regenerator-runtime": "0.13.2",
-    "styled-components": "5.0.0",
     "terser-webpack-plugin": "1.2.3",
     "ts-loader": "6.2.1",
     "typescript": "3.7.5",
