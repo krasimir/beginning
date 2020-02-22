@@ -1,7 +1,9 @@
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  // entry: ['regenerator-runtime/runtime', './src/index.js'],
+  mode: 'development',
+  watch: true,
   entry: ['./src/index.tsx'],
   devtool: 'inline-source-map',
   module: {
@@ -26,15 +28,15 @@ module.exports = {
     publicPath: '/',
     filename: 'app.js',
   },
-  watch: true,
   plugins: [
     new webpack.DefinePlugin({
       __DEV__: true,
     }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    compress: true,
-    port: 9000
-  }
+    contentBase: path.resolve(__dirname, 'public'),
+    liveReload: true,
+    port: 9000,
+    historyApiFallback: true,
+  },
 };
