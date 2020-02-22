@@ -2,8 +2,8 @@
   "name": "beginning",
   "version": "0.2.0",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
-  "main": "./lib/index.js",
-  "dependencies": {
+  "main": "./setup.js",
+  "devDependencies": {
     "@babel/core": "7.5.0",
     "@babel/plugin-transform-regenerator": "7.4.5",
     "@babel/plugin-transform-runtime": "7.5.0",
