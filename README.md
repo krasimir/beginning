@@ -1,4 +1,4 @@
-![Hipster](assets/pexels-photo-2453823.jpeg)
+![Hipster](assets/beginning.jpeg)
 
 <h1 align="center">A new <u>Beginning</u> in the world of JavaScript</h1>
 
@@ -22,5 +22,5 @@ A small starter kit for your JavaScript/React projects. It includes:
 
 ## Why you may need this
 
-* You don't wanna deal with Webpack+Babel+TypeScript+React configuration
-* You want a setup for local development but also for generating production bundle
+* You don't wanna deal with Webpack/Babel/TypeScript/React configuration.
+* You want the bare minimum setup to work with TypeScript and React.
