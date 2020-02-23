@@ -1,4 +1,4 @@
-![Hipster](assets/beginning.jpeg)
+![Beginning](assets/beginning.jpg)
 
 <h1 align="center">A new <u>Beginning</u> in the world of JavaScript</h1>
 
