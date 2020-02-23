@@ -1,6 +1,6 @@
 ![Beginning](assets/beginning.jpg)
 
-<h1 align="center">A new <u>Beginning</u> in the world of JavaScript</h1>
+<h1 align="center">Webpack/Babel/TypeScript/React/ESLint</h1>
 
 A small starter kit for your JavaScript/React projects. It includes:
 
