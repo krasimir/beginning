@@ -11,9 +11,8 @@ A small starter kit for your JavaScript/React projects. It includes:
 
 ## How to use it
 
-1. Create an empty folder and run `npx beginning@latest`
-2. Install the dependencies with `npm install`
-3. Run `npm run dev` and open http://localhost:9000
+1. Create an empty folder and run `npx beginning && npm install`
+2. Run `npm run dev` and open http://localhost:9000
 
 --- 
 

@@ -1,6 +1,6 @@
 {
   "name": "beginning",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
   "main": "./setup.js",
   "bin": {
