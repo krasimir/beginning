@@ -1,6 +1,6 @@
 {
   "name": "beginning",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "A small startup repo for your JavaScript project. Webpack. TypeScript. React. Eslint. Styled-components.",
   "main": "./setup.js",
   "bin": {
@@ -91,7 +91,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krasimir/JavaScript-2020-Hipster-Starter.git"
+    "url": "git+https://github.com/krasimir/beginning.git"
   },
   "keywords": [
     "startup",
